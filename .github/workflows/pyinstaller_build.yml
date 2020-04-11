@@ -105,4 +105,4 @@ jobs:
       - uses: actions/upload-artifact@master
         with:
           name: MacOS
-          path: dist/main.app
+          path: dist/main
