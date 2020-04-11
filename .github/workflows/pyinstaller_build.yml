@@ -46,7 +46,7 @@ jobs:
           pip --version
       - name: Install requirements
         run: |
-          pip install pyinstaller
+          pip install pyinstaller pysimplegui
       - name: Run PyInstaller
         run:  pyinstaller main.spec
       - name: See dist directory
@@ -71,7 +71,7 @@ jobs:
           pip --version
       - name: Install requirements
         run: |
-          pip install pyinstaller
+          pip install pyinstaller pysimplegui
       - name: Run PyInstaller
         run: |
           pyinstaller main.spec
@@ -97,7 +97,7 @@ jobs:
           pip --version
       - name: Install requirements
         run: |
-          pip install pyinstaller
+          pip install pyinstaller pysimplegui
       - name: Run PyInstaller
         run:  pyinstaller main.spec
       - name: See dist directory
