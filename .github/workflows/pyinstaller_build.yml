@@ -70,7 +70,7 @@ jobs:
           pip --version
       - name: Install requirements
         run: |
-          pip install pyinstaller wxpython pysimplegui
+          pip install pyinstaller wxpython pysimpleguiwx
       - name: Run PyInstaller
         run: |
           pyinstaller main.spec
