@@ -1,6 +1,6 @@
 import json
 import os
-import PySimpleGUI as sg
+import PySimpleGUIWx as sg
 
 
 def resource_path(relative_path):

@@ -6,7 +6,7 @@ block_cipher = None
 a = Analysis(['main.py'],
              pathex=['/home/raphael/develoment/pyinstaller-template/test_app'],
              binaries=[],
-             datas=[('additional_data/extra_data.json','additional_data')],
+             datas=[('additional_data','additional_data')],
              hiddenimports=[],
              hookspath=[],
              runtime_hooks=[],
@@ -30,4 +30,4 @@ exe = EXE(pyz,
           upx=True,
           upx_exclude=[],
           runtime_tmpdir=None,
-          console=True )
+          console=True , icon='Icon.ico')
